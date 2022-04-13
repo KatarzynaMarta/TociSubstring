@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TociSubstring", "TociSubstring.csproj", "{04E82A09-3761-4577-A557-ACE9783F30EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TociSubstringTests", "..\TociSubstringTests\TociSubstringTests.csproj", "{58472BFB-0DD6-4665-A964-0DAA5DBB84DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E82A09-3761-4577-A557-ACE9783F30EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E82A09-3761-4577-A557-ACE9783F30EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E82A09-3761-4577-A557-ACE9783F30EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E82A09-3761-4577-A557-ACE9783F30EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58472BFB-0DD6-4665-A964-0DAA5DBB84DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58472BFB-0DD6-4665-A964-0DAA5DBB84DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58472BFB-0DD6-4665-A964-0DAA5DBB84DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58472BFB-0DD6-4665-A964-0DAA5DBB84DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C641D846-F950-4C3C-8868-AD762CC20E23}
+	EndGlobalSection
+EndGlobal
