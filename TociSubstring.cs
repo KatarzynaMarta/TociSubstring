@@ -2,18 +2,18 @@
 
 using static System.Console;
 
-WriteLine("Hello, World!");
+WriteLine("Substring plus Test Substringa");
 
 namespace TociSubstring
 {
-    public class Benchmark
+    public class TociSubstring
     {
-        
-        //Substring("beatka",2,3) >ea
+
+        //Substring("beatka",2,3) >2-a
         public virtual string Substring(string candidate, int position, int lenght)
         {
             string result = string.Empty;
-            for (var i = position; i < lenght; i++)
+            for (var i = position; i < position+lenght; i++)
             {
                 result += candidate[i++];
             }
@@ -21,4 +21,4 @@ namespace TociSubstring
             return result;
         }
     }
-} 
+}
